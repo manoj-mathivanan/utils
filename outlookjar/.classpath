@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="lib" path="C:/manoj/work/InnoWeek/jars/activation.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/manoj/work/InnoWeek/jars/antlr-2.7.7.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/manoj/work/InnoWeek/jars/api-all-1.0.0-M24.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/manoj/work/InnoWeek/jars/commons-collections-3.2.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/manoj/work/InnoWeek/jars/commons-io-2.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/manoj/work/InnoWeek/jars/commons-lang-2.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/manoj/work/InnoWeek/jars/commons-pool-1.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/manoj/work/InnoWeek/jars/dom4j-1.6.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/manoj/work/InnoWeek/jars/dsn.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/manoj/work/InnoWeek/jars/gimap.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/manoj/work/InnoWeek/jars/imap.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/manoj/work/InnoWeek/jars/log4j-1.2.17.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/manoj/work/InnoWeek/jars/mailapi.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/manoj/work/InnoWeek/jars/mina-core-2.0.7.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/manoj/work/InnoWeek/jars/pop3.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/manoj/work/InnoWeek/jars/slf4j-api-1.7.7.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/manoj/work/InnoWeek/jars/slf4j-log4j12-1.7.7.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/manoj/work/InnoWeek/jars/smtp.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/manoj/work/InnoWeek/jars/xml-apis-2.0.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/manoj/work/InnoWeek/jars/xpp3-1.1.4c.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

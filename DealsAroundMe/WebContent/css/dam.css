@@ -1,0 +1,662 @@
+/* Regular */
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/OpenSans-Regular-webfont.eot');
+	src: url('../fonts/OpenSans-Regular-webfont.eot?#iefix')
+		format('embedded-opentype'),
+		url('../fonts/OpenSans-Regular-webfont.woff') format('woff'),
+		url('../fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
+		url('../fonts/OpenSans-Regular-webfont.svg#OpenSansRegular')
+		format('svg');
+	font-weight: normal;
+	font-weight: 400;
+	font-style: normal;
+}
+/* Light */
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/OpenSans-Light-webfont.eot');
+	src: url('../fonts/OpenSans-Light-webfont.eot?#iefix')
+		format('embedded-opentype'),
+		url('../fonts/OpenSans-Light-webfont.woff') format('woff'),
+		url('../fonts/OpenSans-Light-webfont.ttf') format('truetype'),
+		url('../fonts/OpenSans-Light-webfont.svg#OpenSansLight') format('svg');
+	font-weight: 200;
+	font-style: normal;
+}
+/* Light Italic */
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/OpenSans-LightItalic-webfont.eot');
+	src: url('../fonts/OpenSans-LightItalic-webfont.eot?#iefix')
+		format('embedded-opentype'),
+		url('../fonts/OpenSans-LightItalic-webfont.woff') format('woff'),
+		url('../fonts/OpenSans-LightItalic-webfont.ttf') format('truetype'),
+		url('../fonts/OpenSans-LightItalic-webfont.svg#OpenSansLightItalic')
+		format('svg');
+	font-weight: 200;
+	font-style: italic;
+}
+/* Semibold */
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/OpenSans-Semibold-webfont.eot');
+	src: url('../fonts/OpenSans-Semibold-webfont.eot?#iefix')
+		format('embedded-opentype'),
+		url('../fonts/OpenSans-Semibold-webfont.woff') format('woff'),
+		url('../fonts/OpenSans-Semibold-webfont.ttf') format('truetype'),
+		url('../fonts/OpenSans-Semibold-webfont.svg#OpenSansSemibold')
+		format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+
+html {
+	font-family: 'Open Sans', sans-serif !important;
+	height: 100%;
+}
+
+body {
+	font-family: 'Open Sans';
+	font-style: condensed;
+	font-weight: 200;
+	font-style: normal;
+}
+.sapUiUx3NavBarItem, .sapUiUx3Shell, .sapUiForm .sapUiFormTitle{
+	font-family: 'Open Sans';
+}
+.sapUiUx3Shell{
+	font-size: 16px;
+}
+.damHeader #appHeader-logoImg {
+	height: 50px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin: 2% 2%;
+}
+
+.damHeader #appHeader-logoText {
+	font-size: 20px;
+}
+
+.sapUiUx3ShellHeader {
+	background-color: #007cc0 !important;
+	background-image: none !important;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3) !important;
+	height: 40px !important;
+	font-size: 20px !important;
+}
+
+.sapUiUx3ShellHeader>img,.sapUiUx3ShellHeader>h1 {
+	color: #fff !important;
+	margin-top: -3px;
+	text-shadow: none;
+	font-size: 20px !important;
+}
+
+.sapUiUx3ShellContent {
+	padding-top: 15px !important;
+}
+
+#RegPopup{
+	height: 600px !important;
+}
+#RegPopupNew {
+	height: 315px !important;
+}
+
+#RegPopup, #RegPopupNew {
+	width: 15%;
+	margin: 4% 37%;
+	padding: 2% 4%;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#606365),
+		to(#333333));
+	border: 10px solid #999;
+	border-radius: 30px;
+}
+
+#loginDiv{
+	height: 300px;
+margin: 17% 37%;
+padding: 22% 11% 6% 11%;
+border: 1px solid #999;
+border-radius: 5px;
+}
+
+.whiteTxt {
+	color: #fff;
+	font-size: 16px !important;
+}
+
+.logBtn {
+	margin: 15px 29px;
+width: 142px;
+font-family: 'Open Sans';
+font-size: 16px;
+height: 27px;
+}
+
+.sapUiFormResLayout>div {
+	padding: 10px 100px !important;
+	-moz-box-sizing: padding-box;
+	box-sizing: border-box;
+	background-color: none !important;
+}
+
+.sapUiAppHdrLogo {
+	width: 50%;
+}
+.RegBtn{
+	width: 60% !important;
+	float: right;
+	font-family: 'Open Sans';
+}
+.cancelBtn{
+	font-family: 'Open Sans';
+	width: 60% !important;
+}
+
+.sapUiUx3ShellWorksetBar {
+	background: none !important;
+}
+
+.sapUiUx3ShellCanvas {
+	background-color: #f2f2f2 !important;
+}
+
+#ViewDetailDiv,#ViewDetailLeft, #addDeal {
+	float: left;
+	width: 100%;
+}
+
+#ViewDetailLeft .sapUiVltCell,
+#addDealLeft .sapUiVltCell {
+	width: 92%;
+}
+
+#ViewDetailDiv .sapUiHLayoutChildWrapper:nth-child(1),
+#addDeal .sapUiHLayoutChildWrapper:nth-child(1) {
+	width: 20%;
+	background: #fff;
+}
+
+#ViewDetailDiv .sapUiHLayoutChildWrapper:nth-child(2),
+#addDeal .sapUiHLayoutChildWrapper:nth-child(2) {
+	width: 79%;
+	background: #fff;
+	margin: 0 0 0 15px;
+	height: 100%;
+}
+#imgNmediv .sapUiHLayoutChildWrapper:nth-child(2),
+#imgNmedivNew .sapUiHLayoutChildWrapper:nth-child(2) {
+	width: 50%;
+}
+
+#ViewDetailLeft, #addDealLeft {
+	padding: 10px;
+	min-height: 500px;
+}
+
+#imgNmediv, #imgNmedivNew {
+	width: 93%;
+	margin: 0 0 10px 0;
+}
+
+#VName, #VNameNew {
+	font-size: 20px;
+	height: 100px;
+	width: 133px;
+	white-space: normal;
+}
+
+#imgNmediv .sapUiHLayoutChildWrapper:nth-child(1),
+#imgNmedivNew .sapUiHLayoutChildWrapper:nth-child(1) {
+	width: 45%;
+}
+
+.sapUiUx3ShellCanvas .sapUiUx3ShellContent {
+	padding-left: 15px !important;
+	padding-right: 15px !important;
+}
+
+.categoryDiv, #categoryDiv, #addCategoryDiv {
+width: 100%;
+border-top: 1px solid #666;
+margin: 8px 0 0 0;
+padding: 5px 0 0 0;
+}
+.categoryList {
+width: 108%;
+}
+.categoryName{
+margin: 8px 0 10px 10px !important;
+font-size: 17px !important;
+overflow: visible !important;
+padding: 5px 0 0 40px;
+}
+.categoryDiv {
+width: 104%;
+padding: 0 0 0 5%;
+}
+.categoryDiv .sapUiHLayoutChildWrapper:nth-child(1){
+	width: 15% !important;
+}
+.categoryDiv .sapUiHLayoutChildWrapper:nth-child(2){
+	width: 83% !important;
+}
+.editDiv{
+	background-image: url("../images/edit-icon.png");
+background-size: 18px;
+width: 30px;
+height: 30px;
+float: left;
+margin: 8px 0px 0 0px;
+background-repeat: no-repeat;
+display:none;
+}
+.categoryListItem{
+	width: 108%;
+	height: 35px;
+	margin: 7px 0;
+}
+.categoryListItem:hover {
+background-color: #009de0;
+color: #fff;
+cursor: pointer;
+}
+.categoryListItemC{
+	width: 108%;
+	height: 35px;
+	margin: 7px 0;
+}
+.categoryListItemC:hover {
+background-color: #009de0;
+color: #fff;
+cursor: pointer;
+}
+.categoryListItemH{
+	background-color: #009de0;
+	color: #fff;
+}
+.categoryListItemCH{
+	background-color: #009de0;
+	color: #fff;
+}
+.subCategoryNameH{
+	background-color: #009de0;
+	color: #fff;
+}
+.icondiv{
+	width: 30px;
+height: 30px;
+float: left;
+margin: 3px 5px 0 5px;
+background-repeat:no-repeat;
+
+}
+
+#addDealMiddle, .addCategoryDeatils, #ViewDetailMiddle, #ViewDetailMiddle .sapUiVlt {
+	width: 100%;
+}
+
+#addDealMiddle, #ViewDetailMiddle{
+	min-height: 520px;
+}
+
+#loginPageDiv{
+	width: 100%;
+background: #fff;
+height: 600px;
+}
+
+#registerIoc{
+	width:80px;
+}
+
+#loginPageDiv > div:nth-child(1) {
+width: 60%;
+}
+
+#loginPageDescriptionDiv {
+margin: 10% 5% 10% 23%;
+}
+
+.descriptionTxt {
+	font-size: 20px;
+font-family: 'Open Sans';
+font-weight: bold;
+}
+
+#loginDiv > div:nth-child(1), #loginDiv > div:nth-child(3) {
+margin: 0 0 10px 0;
+}
+
+#loginDiv span {
+	font-size: 18px;
+	font-family: 'Open Sans';
+	font-weight: bolder;
+}
+
+#loginDiv > div:nth-child(2), #loginDiv > div:nth-child(4) {
+margin: 0 0 30px 0;
+}
+.SubcategorysDiv{
+	margin: 10px;
+	float:left;
+	width: 98%;
+}
+.subicondiv{
+	width: 30px;
+height: 30px;
+float: left;
+margin: 3px 5px 0 5px;
+background-repeat: no-repeat;
+}
+.subCatTxt{
+	float: left;
+line-height: 39px;
+}
+.subCategoryName {
+width: 22%;
+float: left;
+text-align: center;
+border: 1px solid #666;
+margin: 0 0 2% 5%;
+font-size: 18px;
+border-radius: 4px;
+cursor: pointer;
+height: 40px;
+padding: 0 0 0 4%;
+}
+.dealDetailsBtnDiv {
+width: 97%;
+padding: 2px;
+background-color: #eee;
+margin: 1% 1% 0 1%;
+}
+
+.DealDiv{
+width: 22%;
+float: left;
+margin: 13px 0 0 13px;
+border: 1px solid #ddd;
+padding: 5px;
+}
+.DealDiv:hover{
+	border-color: #009de0;
+}
+.DealDivList{
+	margin: 13px;
+border: 1px solid #ddd;
+border-radius: 5px;
+width: 97%;
+height: 23%;
+float: left;
+}
+.itmDetList{
+	width: 20%;
+float: left;
+margin: 0 4% 0 0;
+}
+.typeDiv{
+	float: left;
+width: 14%;
+margin: 5% 0;
+}
+.dateDiv{
+	float: left;
+width: 17%;
+margin: 3% 10px 0 0;
+}
+
+.descList{
+	width: 20%;
+float: left;
+margin: 1% 0 0 0;
+}
+
+.subicondivList{
+	width: 50px;
+height: 60px;
+float: left;
+background-repeat: no-repeat;
+margin: 14% 6%;
+background-size: auto !important;
+}
+.itemName{
+	border-bottom: 1px solid #ddd;
+	height: 40px;
+}
+.itemNameList{
+	width: 23%;
+float: left;
+}
+.itemNameTxt{
+font-family: 'Open Sans', sans-serif !important;
+font-size: 18px;
+line-height: 30px;
+white-space: nowrap;
+width: auto;
+overflow: hidden;
+text-overflow: ellipsis;
+word-wrap: break-word;
+width:140px;
+float:left;
+}
+
+.itemNameTxtList{
+	font-family: 'Open Sans', sans-serif !important;
+font-size: 18px;
+margin: 21% 0;
+white-space: nowrap;
+width: auto;
+overflow: hidden;
+text-overflow: ellipsis;
+word-wrap: break-word;
+}
+
+.dealDetailsBtnDiv  .sapUiHLayoutChildWrapper:nth-child(1){
+	width: auto !important;
+}
+.dealDetailsBtnDiv  .sapUiHLayoutChildWrapper:nth-child(2){
+	width: auto !important;
+	float: right !important;
+
+}
+.subCategoryName:hover{
+	background-color: #009de0;
+	color: #fff;
+}
+.sapUiLbl {
+	font-size: 17px;
+	font-family: 'Open Sans', sans-serif !important;
+}
+
+#endDate, #startDate{
+	width: 50% !important;
+	font-family: 'Open Sans', sans-serif !important;
+}
+
+#dvLoading
+{
+   background:url("../images/loadingGif.gif") no-repeat center center;
+   height: 100px;
+   width: 100px;
+   position: fixed;
+   z-index: 1000;
+   left: 50%;
+   top: 50%;
+   margin: -25px 0 0 -25px;
+   display: none;
+}
+
+
+.ClothIcon{
+	background-image:url("../images/clothing_icon.png");
+	background-size: 30px;
+}
+.phoneIcon{
+	background-image:url("../images/phone_icon.png");
+	background-size: 25px 29px;
+	margin: 0 0 0 7px;
+}
+.spaIcon{
+	background-image:url("../images/spa_icon.png");
+	background-size: 30px;
+}
+.booksIcon{
+	background-image:url("../images/books_icon.png");
+	background-size: 30px;
+}
+.footIcon{
+	background-image:url("../images/shoe_icon.png");
+	background-size: 30px;
+}
+.othersIcon{
+	background-image:url("../images/others_icon.png");
+}
+.ClothIconH{
+	background-image:url("../images/clothing_icon1.png");
+	background-size: 30px;
+}
+.phoneIconH{
+	background-image:url("../images/phone_icon1.png");
+	background-size: 25px 29px;
+	margin: 0 0 0 7px;
+}
+.spaIconH{
+	background-image:url("../images/spa_icon1.png");
+	background-size: 30px;
+}
+.booksIconH{
+	background-image:url("../images/books_icon1.png");
+	background-size: 30px;
+}
+.footIconH{
+	background-image:url("../images/shoe_icon1.png");
+	background-size: 30px;
+}
+.othersIconH{
+	background-image:url("../images/others_icon1.png");
+}
+.bottomwear{
+	background-image:url("../images/bottomwear.png");
+	background-size: 30px;
+}
+.indianwear{
+	background-image:url("../images/indianwear.png");
+	background-size: 30px;
+}
+.topwear{
+	background-image:url("../images/topwear.png");
+	background-size: 30px;
+}
+.western{
+	background-image:url("../images/western.png");
+	background-size: 30px;
+}
+.winterwear{
+	background-image:url("../images/winterwear.png");
+	background-size: 30px;
+}
+.ClothOthers{
+	background-image:url("../images/ClothOthers.png");
+	background-size: 19px;
+}
+
+.landline{
+	background-image:url("../images/landline.png");
+	background-size: 30px;
+}
+.smartPhone{
+	background-image:url("../images/smartPhone.png");
+	background-size: 18px;
+}
+.tablet{
+	background-image:url("../images/tablet.png");
+	background-size: 17px;
+}
+.phoneAccessories{
+	background-image:url("../images/phoneAccessories.png");
+	background-size: 30px;
+}
+
+.bleachFacial{
+	background-image:url("../images/bleachFacial.png");
+	background-size: 25px;
+}
+.hairCare{
+	background-image:url("../images/hairCare.png");
+	background-size: 30px;
+}
+.handFootCare{
+	background-image:url("../images/handFootCare.png");
+	background-size: 30px;
+}
+.makeUp{
+	background-image:url("../images/makeUp.png");
+	background-size: 27px;
+}
+.massage{
+	background-image:url("../images/massage.png");
+	background-size: 30px;
+}
+.spaOthers{
+	background-image:url("../images/spaOthers.png");
+	background-size: 30px;
+}
+.bookOthers{
+	background-image:url("../images/bookOthers.png");
+	background-size: 30px;
+	margin: 10px 5px 0 0;
+}
+.book1{
+	background-image:url("../images/book1.png");
+	background-size: 30px;
+	margin: 10px 5px 0 0;
+}
+.bags{
+	background-image:url("../images/bags.png");
+	background-size: 30px;
+	
+}
+.flipFlop{
+	background-image:url("../images/flipFlop.png");
+	background-size: 30px;
+}
+.heels{
+	background-image:url("../images/heels.png");
+	background-size: 30px;
+}
+.sandles{
+	background-image:url("../images/sandles.png");
+	background-size: 30px;
+}
+.shoes{
+	background-image:url("../images/shoes.png");
+	background-size: 30px;
+}
+.footwearOthers{
+	background-image:url("../images/footwearOthers.png");
+	background-size: 30px;
+}
+.belt{
+	background-image:url("../images/belt.png");
+	background-size: 30px;
+}
+.jewellery{
+	background-image:url("../images/jewellery.png");
+	background-size: 30px;
+}
+.sunglass{
+	background-image:url("../images/sunglass.png");
+	background-size: 30px;
+}
+.watch{
+	background-image:url("../images/watch.png");
+	background-size: 30px;
+}
+.others_icon{
+	background-image:url("../images/others_icon.png");
+	background-size: 30px;
+}
