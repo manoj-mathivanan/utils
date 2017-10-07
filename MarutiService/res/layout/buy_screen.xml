@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+ <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView1screen02"
+        android:layout_width="match_parent"
+            android:background="@drawable/back"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true" >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+     <TextView
+            android:id="@+id/mywidget1screen02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:fadingEdge="horizontal"
+            android:lines="1"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:layout_marginBottom="15dp"
+            android:singleLine="true"
+            android:text="This app is owned and operated by SRI ANANTH MARUTHI PVT LTD., Leading Sales and Service dealers of aircondtioners and cooling equipments and energy saving products."
+            android:textColor="#ffffff" />
+     
+        <RelativeLayout
+            android:id="@+id/RelativeLayout1screen02"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            
+            android:orientation="vertical" >
+    
+    <Button
+        android:id="@+id/buynewbutton"
+        style="@style/btnstyle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView1"
+        android:gravity="left|center_vertical"
+        android:onClick="buy_ac"
+        android:text="Buy AC" />
+
+    <Button
+        android:id="@+id/buynewbutton2"
+        style="@style/btnstyle2"
+        android:layout_alignBottom="@+id/buynewbutton"
+        android:layout_alignRight="@+id/buynewbutton"
+        android:layout_alignTop="@+id/buynewbutton"
+        android:layout_margin="5dp"
+        android:onClick="buy_ac"
+        android:text=">" />
+
+    <Button
+        android:id="@+id/sellitems"
+        style="@style/btnstyle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/buynewbutton"
+        android:gravity="left|center_vertical"
+        android:onClick="buy_water_cooler"
+        android:text="Buy Water Coller" />
+
+    <Button
+        android:id="@+id/sellitems2"
+        style="@style/btnstyle2"
+        android:layout_alignBottom="@+id/sellitems"
+        android:layout_alignRight="@+id/sellitems"
+        android:layout_alignTop="@+id/sellitems"
+        android:layout_margin="5dp"
+        android:onClick="buy_water_cooler"
+        android:text=">" />
+    
+    
+    <Button
+        android:id="@+id/callservice"
+        style="@style/btnstyle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/sellitems"
+        android:gravity="left|center_vertical"
+        android:onClick="buy_energy_saver"
+        android:text="Buy Energy Saver" />
+
+    <Button
+        android:id="@+id/callservice2"
+        style="@style/btnstyle2"
+        android:layout_alignBottom="@+id/callservice"
+        android:layout_alignRight="@+id/callservice"
+        android:layout_alignTop="@+id/callservice"
+        android:layout_margin="5dp"
+        android:onClick="buy_energy_saver"
+        android:text=">" />
+    
+    
+    <Button
+        android:id="@+id/optamc"
+        style="@style/btnstyle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/callservice"
+        android:gravity="left|center_vertical"
+        android:onClick="exchange_ac1"
+        android:text="Exchange old AC" />
+
+    <Button
+        android:id="@+id/optamc2"
+        style="@style/btnstyle2"
+        android:layout_alignBottom="@+id/optamc"
+        android:layout_alignRight="@+id/optamc"
+        android:layout_alignTop="@+id/optamc"
+        android:layout_margin="5dp"
+        android:onClick="exchange_ac1"
+        android:text=">" />
+    
+    <Button
+        android:id="@+id/relocate"
+        style="@style/btnstyle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/optamc"
+        android:gravity="left|center_vertical"
+        android:text="Buy XXX" />
+
+    <Button
+        android:id="@+id/relocate2"
+        style="@style/btnstyle2"
+        android:layout_alignBottom="@+id/relocate"
+        android:layout_alignRight="@+id/relocate"
+        android:layout_alignTop="@+id/relocate"
+        android:layout_margin="5dp"
+        android:text=">" />
+    
+    <Button
+        android:id="@+id/others"
+        style="@style/btnstyle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/relocate"
+        android:gravity="left|center_vertical"
+        android:text="Buy XXX" />
+
+    <Button
+        android:id="@+id/others2"
+        style="@style/btnstyle2"
+        android:layout_alignBottom="@+id/others"
+        android:layout_alignRight="@+id/others"
+        android:layout_alignTop="@+id/others"
+        android:layout_margin="5dp"
+        android:text=">" />
+
+      
+
+</RelativeLayout>
+        
+        </LinearLayout>
+
+</ScrollView>

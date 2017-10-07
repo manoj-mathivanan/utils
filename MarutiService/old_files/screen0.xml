@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+ <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+            android:background="@drawable/back"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true" >
+        
+<RelativeLayout
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="21dp"
+        android:text="I want to"
+        android:textColor="#FFFFFFFF"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <Button
+        android:id="@+id/Button01"
+        style="@style/btnstyle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView1"
+        android:gravity="left|center_vertical"
+        android:text="Buy an AC, water dispenser, energy saver" />
+
+    <Button
+        android:id="@+id/Button02"
+        style="@style/btnstyle2"
+
+        android:layout_alignBottom="@+id/Button01"
+        android:layout_alignRight="@+id/Button01"
+        android:layout_alignTop="@+id/Button01"
+        android:layout_margin="5dp"
+        android:text=">" />
+
+    <Button
+        android:id="@+id/Button04"
+        style="@style/btnstyle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/Button01"
+        android:gravity="left|center_vertical"
+        android:text="Sell an AC" />
+
+    <Button
+        android:id="@+id/Button03"
+        style="@style/btnstyle2"
+        android:layout_width="30dp"
+		android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Button04"
+        android:layout_alignRight="@+id/Button04"
+        android:layout_alignTop="@+id/Button04"
+        android:layout_margin="5dp"
+        android:text=">" />
+    
+   
+    <Button
+        android:id="@+id/Button07"
+        style="@style/btnstyle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/Button04"
+        android:gravity="left|center_vertical"
+        android:text="Service my AC" />
+
+    <Button
+        android:id="@+id/Button08"
+        style="@style/btnstyle2"
+        android:layout_width="30dp"
+		android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Button07"
+        android:layout_alignRight="@+id/Button07"
+        android:layout_alignTop="@+id/Button07"
+        android:layout_margin="5dp"
+        android:text=">" />
+    
+   
+    <Button
+        android:id="@+id/Button11"
+        style="@style/btnstyle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/Button07"
+        android:gravity="left|center_vertical"
+        android:text="AMC Service or New AMC" />
+
+    <Button
+        android:id="@+id/Button12"
+        style="@style/btnstyle2"
+        android:layout_width="30dp"
+		android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Button11"
+        android:layout_alignRight="@+id/Button11"
+        android:layout_alignTop="@+id/Button11"
+        android:layout_margin="5dp"
+        android:text=">" />
+    
+    <Button
+        android:id="@+id/Button13"
+        style="@style/btnstyle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/Button11"
+        android:gravity="left|center_vertical"
+        android:text="Relocate my AC" />
+
+    <Button
+        android:id="@+id/Button14"
+        style="@style/btnstyle2"
+        android:layout_width="30dp"
+		android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Button13"
+        android:layout_alignRight="@+id/Button13"
+        android:layout_alignTop="@+id/Button13"
+        android:layout_margin="5dp"
+        android:text=">" />
+    
+      <Spinner
+        android:id="@+id/screen0items"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:visibility="invisible"
+        android:layout_below="@+id/Button13"
+        android:layout_marginTop="16dp" />
+      
+
+</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+ <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView1buy_new"
+        android:layout_width="match_parent"
+            android:background="@drawable/back"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true" >
+
+     <RelativeLayout
+         android:id="@+id/RelativeLayout1"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:orientation="vertical" >
+
+         <TextView
+             android:id="@+id/textView2"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentLeft="true"
+             android:layout_below="@+id/finalname"
+             android:layout_marginTop="15dp"
+             android:text="Phone: *"
+             android:textAppearance="?android:attr/textAppearanceMedium"
+             android:textColor="#FFFFFF" />
+
+         <TextView
+             android:id="@+id/textView3"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentLeft="true"
+             android:layout_below="@+id/finalphone"
+             android:layout_marginTop="15dp"
+             android:text="Email: *"
+             android:textAppearance="?android:attr/textAppearanceMedium"
+             android:textColor="#FFFFFF" />
+
+         <TextView
+             android:id="@+id/textView4"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentLeft="true"
+             android:layout_below="@+id/finalemail"
+             android:layout_marginTop="15dp"
+             android:text="Address: "
+             android:textAppearance="?android:attr/textAppearanceMedium"
+             android:textColor="#FFFFFF" />
+
+         <Button
+             android:id="@+id/finalsubmit"
+             style="@style/btnstyle"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentLeft="true"
+             android:layout_alignParentRight="true"
+             android:layout_below="@+id/TextView01"
+             android:layout_marginBottom="15dp"
+             android:text="Sumit Request"
+             android:textColor="#FFFFFF" />
+
+         <EditText
+             android:id="@+id/finalname"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignTop="@+id/textView1"
+             android:layout_alignParentRight="true"
+             android:ems="10"
+             android:inputType="textPersonName"
+             android:textColor="#FFFFFF" >
+
+             <requestFocus />
+         </EditText>
+
+         <EditText
+             android:id="@+id/finalphone"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignTop="@+id/textView2"
+             android:layout_alignParentRight="true"
+             android:ems="10"
+             android:inputType="phone"
+             android:textColor="#FFFFFF" />
+
+         <EditText
+             android:id="@+id/finalemail"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignTop="@+id/textView3"
+             
+             android:layout_alignParentRight="true"
+             android:ems="10"
+             android:inputType="textEmailAddress"
+             android:textColor="#FFFFFF" />
+
+         <EditText
+             android:id="@+id/finaladdress"
+             android:layout_width="wrap_content"
+             android:layout_height="80dp"
+             android:layout_alignParentRight="true"
+             android:layout_alignTop="@+id/textView4"
+             android:ems="10"
+             android:inputType="textMultiLine"
+             android:textColor="#FFFFFF" />
+
+         <TextView
+             android:id="@+id/textView5"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentLeft="true"
+             android:layout_alignParentTop="true"
+             android:text="Verify your details and submit your query"
+             android:textAppearance="?android:attr/textAppearanceLarge"
+             android:textColor="#FFFFFF" />
+
+         <TextView
+             android:id="@+id/textView1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentLeft="true"
+             android:layout_below="@+id/textView5"
+             android:layout_marginTop="20dp"
+             android:text="Name: *"
+             android:textAppearance="?android:attr/textAppearanceMedium"
+             android:textColor="#FFFFFF" />
+
+         <TextView
+             android:id="@+id/TextView01"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentLeft="true"
+             android:layout_below="@+id/finalreason"
+             android:layout_marginTop="15dp"
+             android:text="These details will be strictly confidential"
+             android:textAppearance="?android:attr/textAppearanceSmall"
+             android:textColor="#FFFFFF" />
+         
+         <TextView
+             android:id="@+id/reason"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentLeft="true"
+             android:layout_below="@+id/finaladdress"
+             android:layout_marginTop="15dp"
+             android:text="Reason: "
+             android:textAppearance="?android:attr/textAppearanceMedium"
+             android:textColor="#FFFFFF" />
+         
+         <EditText
+             android:id="@+id/finalreason"
+             android:layout_width="wrap_content"
+             android:layout_height="80dp"
+             android:layout_alignParentRight="true"
+             android:layout_alignTop="@+id/reason"
+             android:ems="10"
+             android:inputType="textMultiLine"
+             android:textColor="#FFFFFF" />
+         
+         
+     </RelativeLayout>
+
+</ScrollView>

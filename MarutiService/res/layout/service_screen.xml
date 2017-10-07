@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+ <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView1buy_new"
+        android:layout_width="match_parent"
+            android:background="@drawable/back"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true" >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+     <TextView
+            android:id="@+id/mywidget1buy_new"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:fadingEdge="horizontal"
+            android:lines="1"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:layout_marginBottom="15dp"
+            android:singleLine="true"
+            android:text="This app is owned and operated by SRI ANANTH MARUTHI PVT LTD., Leading Sales and Service dealers of aircondtioners and cooling equipments and energy saving products."
+            android:textColor="#ffffff" />
+     
+        <RelativeLayout
+            android:id="@+id/RelativeLayout1buy_new"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            
+            android:orientation="vertical" >
+    
+    <Button
+        android:id="@+id/buynewbutton"
+        style="@style/btnstyle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView1"
+        android:gravity="left|center_vertical"
+        android:onClick="warranty_ac"
+        android:text="My AC is in Warranty" />
+
+    <Button
+        android:id="@+id/buynewbutton2"
+        style="@style/btnstyle2"
+        android:layout_alignBottom="@+id/buynewbutton"
+        android:layout_alignRight="@+id/buynewbutton"
+        android:layout_alignTop="@+id/buynewbutton"
+        android:layout_margin="5dp"
+        android:onClick="warranty_ac"
+        android:text=">" />
+
+    <Button
+        android:id="@+id/sellitems"
+        style="@style/btnstyle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/buynewbutton"
+        android:gravity="left|center_vertical"
+        android:onClick="nowarranty_ac"
+        android:text="My AC is NOT in Warranty" />
+
+    <Button
+        android:id="@+id/sellitems2"
+        style="@style/btnstyle2"
+        android:layout_alignBottom="@+id/sellitems"
+        android:layout_alignRight="@+id/sellitems"
+        android:layout_alignTop="@+id/sellitems"
+        android:layout_margin="5dp"
+        android:onClick="nowarranty_ac"
+        android:text=">" />
+    
+    
+    <Button
+        android:id="@+id/callservice"
+        style="@style/btnstyle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/sellitems"
+        android:gravity="left|center_vertical"
+        android:onClick="have_amc"
+        android:text="I have AMC" />
+
+    <Button
+        android:id="@+id/callservice2"
+        style="@style/btnstyle2"
+        android:layout_alignBottom="@+id/callservice"
+        android:layout_alignRight="@+id/callservice"
+        android:layout_alignTop="@+id/callservice"
+        android:onClick="have_amc"
+        android:layout_margin="5dp"
+        android:text=">" />
+    
+    
+   
+
+      
+
+</RelativeLayout>
+
+               
+        </LinearLayout>
+
+</ScrollView>
